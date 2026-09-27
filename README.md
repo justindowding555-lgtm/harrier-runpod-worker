@@ -39,10 +39,14 @@ Response shape:
 }
 ```
 
+## Container image
+
+Published to GHCR (via Actions on `main`):
+
+`ghcr.io/justindowding555-lgtm/harrier-runpod-worker:latest`
+
 ## Build (local)
 
 ```bash
 docker build -t harrier-runpod-worker .
 ```
-
-Do not push unless you intend to deploy; this repo is source-only by default.
