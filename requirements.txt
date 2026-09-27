@@ -1,0 +1,8 @@
+# Rely on the RunPod CUDA PyTorch base image for torch (do not pin torch here —
+# installing it via pip can pull a CPU wheel and wipe the CUDA build).
+runpod>=1.7.0
+sentence-transformers>=5.1.0
+transformers>=4.57.0
+accelerate>=1.2.0
+safetensors>=0.4.5
+huggingface_hub>=0.26.0
